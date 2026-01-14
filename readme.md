@@ -1,6 +1,6 @@
 # Dados em Chamas 🔥
 
-![alt text](image-1.png)
+![alt text](pics/image-1.png)
 
 **Engenharia de Dados com Python e Spark, do zero ao pipeline em produção.**
 
