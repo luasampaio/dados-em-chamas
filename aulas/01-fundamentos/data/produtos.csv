@@ -1,0 +1,21 @@
+id_produto,nome_produto,categoria,preco_base,custo
+P001,Fone Bluetooth Premium,Eletrônicos,299.90,120.00
+P002,Camiseta Algodão Básica,Vestuário,149.90,45.00
+P003,Smart TV 55 polegadas,Eletrônicos,1899.00,1200.00
+P004,Tênis Esportivo Running,Calçados,599.00,280.00
+P005,Livro Python para Dados,Livros,89.90,25.00
+P006,Notebook Gamer i7,Eletrônicos,2499.00,1800.00
+P007,Mouse Sem Fio Ergonômico,Eletrônicos,79.90,30.00
+P008,Jaqueta Corta Vento,Vestuário,449.90,180.00
+P009,Caderno Universitário 200fls,Papelaria,39.90,12.00
+P010,Relógio Smartwatch,Eletrônicos,199.90,85.00
+P011,Cadeira Gamer RGB,Móveis,899.00,450.00
+P012,Mochila Executiva,Acessórios,129.90,55.00
+P013,Headset Gaming 7.1,Eletrônicos,349.90,150.00
+P014,Calça Jeans Slim,Vestuário,199.90,75.00
+P015,Monitor Ultrawide 34,Eletrônicos,1299.00,850.00
+P016,Cabo USB-C 2m,Acessórios,69.90,15.00
+P017,Luminária LED Mesa,Móveis,449.90,180.00
+P018,Caixa de Som Portátil,Eletrônicos,249.90,100.00
+P019,Chinelo Conforto,Calçados,99.90,35.00
+P020,Teclado Mecânico RGB,Eletrônicos,799.90,400.00

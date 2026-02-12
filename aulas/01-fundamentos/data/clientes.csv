@@ -1,0 +1,31 @@
+id_cliente,nome,email,cidade,estado,data_cadastro
+C001,Maria Silva,maria.silva@email.com,São Paulo,SP,2023-01-10
+C002,João Santos,joao.santos@email.com,Rio de Janeiro,RJ,2023-02-15
+C003,Ana Oliveira,ana.oliveira@email.com,Belo Horizonte,MG,2023-03-20
+C004,Pedro Costa,pedro.costa@email.com,Curitiba,PR,2023-04-05
+C005,Carla Ferreira,carla.ferreira@email.com,Porto Alegre,RS,2023-05-12
+C006,Lucas Almeida,lucas.almeida@email.com,Salvador,BA,2023-06-18
+C007,Juliana Souza,juliana.souza@email.com,Fortaleza,CE,2023-07-22
+C008,Rafael Lima,rafael.lima@email.com,Brasília,DF,2023-08-30
+C009,Fernanda Rocha,fernanda.rocha@email.com,Recife,PE,2023-09-14
+C010,Bruno Martins,bruno.martins@email.com,Manaus,AM,2023-10-01
+C011,Patricia Dias,patricia.dias@email.com,Goiânia,GO,2023-10-15
+C012,Thiago Moreira,thiago.moreira@email.com,Campinas,SP,2023-11-02
+C013,Aline Barbosa,aline.barbosa@email.com,Vitória,ES,2023-11-18
+C014,Gustavo Ribeiro,gustavo.ribeiro@email.com,Florianópolis,SC,2023-12-01
+C015,Camila Cardoso,camila.cardoso@email.com,Natal,RN,2023-12-10
+C016,Eduardo Gomes,eduardo.gomes@email.com,João Pessoa,PB,2023-12-20
+C017,Vanessa Mendes,vanessa.mendes@email.com,Campo Grande,MS,2024-01-05
+C018,Rodrigo Pereira,rodrigo.pereira@email.com,Cuiabá,MT,2024-01-10
+C019,Isabela Castro,isabela.castro@email.com,Teresina,PI,2024-01-15
+C020,Felipe Nunes,felipe.nunes@email.com,Maceió,AL,2024-01-18
+C021,Mariana Correia,mariana.correia@email.com,São Luís,MA,2024-01-20
+C022,Diego Araújo,diego.araujo@email.com,Aracaju,SE,2024-01-22
+C023,Larissa Freitas,larissa.freitas@email.com,Belém,PA,2024-01-25
+C024,Victor Hugo,victor.hugo@email.com,Macapá,AP,2024-01-27
+C025,Natália Campos,natalia.campos@email.com,Boa Vista,RR,2024-01-28
+C026,Leonardo Azevedo,leonardo.azevedo@email.com,Palmas,TO,2024-01-29
+C027,Bianca Teixeira,bianca.teixeira@email.com,Porto Velho,RO,2024-01-30
+C028,Henrique Monteiro,henrique.monteiro@email.com,Rio Branco,AC,2024-01-31
+C029,Priscila Vieira,priscila.vieira@email.com,Uberlândia,MG,2024-02-01
+C030,Marcelo Cunha,marcelo.cunha@email.com,Joinville,SC,2024-02-02

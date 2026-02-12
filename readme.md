@@ -1,50 +1,145 @@
-# Dados em Chamas 🔥
+# 🔥 Dados em Chamas
 
-![alt text](pics/image-1.png)
+> **Curso completo de Engenharia de Dados com Databricks**
 
-**Engenharia de Dados com Python e Spark, do zero ao pipeline em produção.**
-
----
-
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/YOUR_CHANNEL_ID) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile/) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/your_handle/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
-## 🚀 Sobre o Canal
-
-Bem-vindo ao repositório oficial do **Dados em Chamas**! Este é o lugar onde você encontrará todos os códigos, scripts, notebooks e materiais de apoio dos vídeos do nosso canal no YouTube.
-
-Nossa missão é desmistificar a engenharia de dados, ensinando de forma prática e direta como construir pipelines robustos, otimizar processos e se preparar para os desafios reais do mercado de trabalho. Aqui, a teoria encontra a prática.
-
-## 📚 Conteúdo e Projetos
-
-Este repositório está organizado em pastas, cada uma correspondendo a um vídeo específico do canal. Assim, você pode acompanhar o conteúdo e executar os códigos ao mesmo tempo.
-
-
-
-### 🏛️ Arquiteturas e Conceitos
-
-Visualizações e explicações de arquiteturas de dados modernas.
-
-- **Arquitetura Medallion (com Camada Worked)**
-
-
-## 💻 Stack Tecnológica
-
-As principais tecnologias que usamos e ensinamos no canal:
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
-
-
-
-## 🔗 Conecte-se Comigo
-
-- 📺 **YouTube**: [Inscreva-se no Dados em Chamas](https://www.youtube.com/channel/UCVsyBDew3_vD7Fi_4B6Thcw)
-- 💼 **LinkedIn**: [Vamos nos conectar!](https://www.linkedin.com/in/luciana-sampaio/)
-
-
-## 📄 Licença
-
-Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+[![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://databricks.com)
+[![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)](https://spark.apache.org/)
+[![Delta Lake](https://img.shields.io/badge/Delta_Lake-003366?style=for-the-badge&logo=delta&logoColor=white)](https://delta.io/)
 
 ---
 
-Feito com 🔥 por Luciana Sampaio para a comunidade de Engenharia de Dados.
+## 📖 Sobre o Curso
+
+Curso completo de **Engenharia de Dados** focado em boas práticas, arquitetura moderna e implementações práticas utilizando o ecossistema Databricks. Cada módulo contém teoria, notebooks práticos e exemplos de código prontos para uso.
+
+## 🎯 Público-Alvo
+
+- Engenheiros de Dados
+- Analistas de Dados em transição
+- Desenvolvedores interessados em Data Engineering
+- Profissionais que querem dominar Databricks
+
+---
+
+## 📚 Trilha de Aprendizado
+
+### 🟢 Nível Básico
+
+| # | Módulo | Descrição | Duração |
+|---|--------|-----------|---------|
+| 01 | [**Fundamentos**](./aulas/01-fundamentos/) | Arquitetura Medallion, Delta Lake, Unity Catalog | 2-3h |
+| 02 | [**Ingestão de Dados**](./aulas/02-ingestao-dados/) | Leitura de arquivos, transformações, validação | 3-4h |
+
+### 🟡 Nível Intermediário
+
+| # | Módulo | Descrição | Duração |
+|---|--------|-----------|---------|
+| 03 | [**Camada Semântica**](./aulas/03-camada-semantica/) | dbt, métricas, governança de dados | 4-5h |
+| 04 | [**Monitoramento**](./aulas/04-monitoramento/) | Self-healing pipelines, alertas, observabilidade | 3-4h |
+| 05 | [**Pipelines CI/CD**](./aulas/05-pipelines-ci-cd/) | Azure Pipelines, Asset Bundles, deploy | 3-4h |
+| 06 | [**Data Quality**](./aulas/06-data-quality/) | Great Expectations, DLT Expectations, quarentena | 3-4h |
+
+### 🔴 Nível Avançado
+
+| # | Módulo | Descrição | Duração |
+|---|--------|-----------|---------|
+| 07 | [**Orquestração**](./aulas/07-orquestracao/) | Databricks Workflows, Jobs API, dependências | 3-4h |
+| 08 | [**Streaming**](./aulas/08-streaming/) | Structured Streaming, Kafka, Auto Loader | 4-5h |
+| 09 | [**Otimização**](./aulas/09-otimizacao/) | Particionamento, Z-Order, Liquid Clustering, Photon | 4-5h |
+| 10 | [**Governança**](./aulas/10-governanca/) | Unity Catalog, RLS, Lineage, Audit Logs | 4-5h |
+
+---
+
+## 📁 Estrutura do Repositório
+
+```
+dados-em-chamas/
+├── 📁 aulas/                         # Conteúdo principal do curso
+│   ├── 01-fundamentos/               # Arquitetura e conceitos base
+│   ├── 02-ingestao-dados/            # Ingestão e transformação
+│   ├── 03-camada-semantica/          # Modelagem semântica
+│   ├── 04-monitoramento/             # Observabilidade e alertas
+│   ├── 05-pipelines-ci-cd/           # Automação de deploys
+│   ├── 06-data-quality/              # Validação de qualidade
+│   ├── 07-orquestracao/              # Workflows e scheduling
+│   ├── 08-streaming/                 # Processamento em tempo real
+│   ├── 09-otimizacao/                # Performance tuning
+│   └── 10-governanca/                # Unity Catalog e segurança
+├── 📁 assets/                        # Recursos visuais
+│   └── images/
+├── 📁 docs/                          # Documentação geral
+├── 📁 exemplos/                      # Códigos de exemplo
+├── 📁 templates/                     # Templates reutilizáveis
+├── 📁 recursos/                      # Links e materiais extras
+└── 📄 README.md                      # Este arquivo
+```
+
+---
+
+## 🚀 Como Começar
+
+### 1. Clone o repositório
+```bash
+git clone https://github.com/seu-usuario/dados-em-chamas.git
+cd dados-em-chamas
+```
+
+### 2. Escolha seu ponto de partida
+- **Iniciante?** Comece pelo [Módulo 01 - Fundamentos](./aulas/01-fundamentos/)
+- **Já conhece o básico?** Pule para [Módulo 06 - Data Quality](./aulas/06-data-quality/)
+- **Quer avançar?** Explore [Módulo 08 - Streaming](./aulas/08-streaming/)
+
+### 3. Siga a ordem dos notebooks em cada módulo
+Cada módulo contém notebooks numerados (01_, 02_, etc.) para seguir uma progressão lógica.
+
+---
+
+## 🛠️ Tecnologias Abordadas
+
+| Categoria | Tecnologias |
+|-----------|-------------|
+| **Plataforma** | Databricks, Azure, AWS |
+| **Processamento** | PySpark, Spark SQL, Photon |
+| **Storage** | Delta Lake, Unity Catalog, Volumes |
+| **Streaming** | Structured Streaming, Kafka, Auto Loader |
+| **Qualidade** | Great Expectations, DLT Expectations |
+| **Orquestração** | Databricks Workflows, Jobs API |
+| **CI/CD** | Azure Pipelines, Asset Bundles |
+| **Modelagem** | dbt, Camada Semântica |
+
+---
+
+## 📊 Indicadores do Curso
+
+| Métrica | Valor |
+|---------|-------|
+| 📚 Total de Módulos | 10 |
+| ⏱️ Carga Horária Total | ~35-45 horas |
+| 📓 Notebooks Práticos | 15+ |
+| 💻 Exemplos de Código | 50+ |
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Se você encontrar erros ou quiser adicionar conteúdo:
+
+1. Faça um Fork do repositório
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-aula`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova aula sobre X'`)
+4. Push para a branch (`git push origin feature/nova-aula`)
+5. Abra um Pull Request
+
+---
+
+## 📝 Licença
+
+Este projeto é destinado para fins educacionais.
+
+---
+
+<p align="center">
+  <strong>🔥 Feito com paixão por dados!</strong>
+  <br>
+  <sub>Transformando dados em conhecimento, um módulo por vez.</sub>
+</p>

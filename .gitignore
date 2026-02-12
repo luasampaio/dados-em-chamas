@@ -1,0 +1,21 @@
+# Ambiente virtual
+.venv/
+__pycache__/
+exemplos/
+.vscode/
+*.pyc
+
+# VSCode
+.vscode/
+
+# Dados temporários
+*.log
+*.tmp
+
+# Ignorar todas as aulas
+aulas/*
+
+# Permitir somente aula 01
+!aulas/01-fundamentos/
+!aulas/01-fundamentos/**
+
