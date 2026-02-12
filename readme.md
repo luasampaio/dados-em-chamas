@@ -1,5 +1,7 @@
 # 🔥 Dados em Chamas
 
+> Segue o canal: https://www.youtube.com/@lucianasampaio.engdados
+
 > **Curso completo de Engenharia de Dados com Databricks**
 
 [![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://databricks.com)
