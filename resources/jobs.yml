@@ -1,0 +1,13 @@
+# Resources directory for Databricks Asset Bundle
+# Add job definitions, pipeline definitions, and other resources here.
+#
+# Example job definition:
+#
+# resources:
+#   jobs:
+#     my_job:
+#       name: my_job
+#       tasks:
+#         - task_key: my_task
+#           notebook_task:
+#             notebook_path: ../src/aulas/01-fundamentos/notebooks/my_notebook.py

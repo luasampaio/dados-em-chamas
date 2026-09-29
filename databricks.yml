@@ -1,0 +1,28 @@
+# This is a Databricks asset bundle definition for dados-em-chamas.
+# The Databricks extension requires databricks.yml configuration file.
+# See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
+
+bundle:
+  name: dados-em-chamas
+
+# Include resource definitions from the resources directory
+include:
+  - resources/*.yml
+
+# Sync configuration - deploy source code from src/
+sync:
+  include:
+    - src/**
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://dbc-706f422c-85bb.cloud.databricks.com
+
+  ## Optionally, there could be 'staging' or 'prod' targets here.
+  #
+  # prod:
+  #   workspace:
+  #     host: https://dbc-706f422c-85bb.cloud.databricks.com
